@@ -215,3 +215,18 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+@media screen and (max-width: 980px){
+  
+  .container{
+    padding: 0 20px;
+    max-width: 768px;
+    
+  }
+  #main-container{
+    padding-top: 130px;
+    
+  }
+  .main-section{
+    max-width: 420px;
+  }
+}

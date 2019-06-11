@@ -262,3 +262,32 @@ input[type=submit] {
     width: 50%;
   }
 }
+@media screen and (max-width: 640px){
+  #masthead{
+    position: static;
+    margin-bottom: 20px;
+
+  }
+  header.container{
+    padding: 0;
+  }
+  #main-container{
+    padding-top: 0;
+  }
+  #logo {
+    width: 100%;
+  }
+  .work{
+    width: 100%;
+  }
+  nav{
+    text-align: center;
+    width: 100%;
+    margin: 15px 0;
+  }
+  nav a{
+    width: 30%;
+    padding-left: 0;
+    margin-left: 0;
+  }
+}

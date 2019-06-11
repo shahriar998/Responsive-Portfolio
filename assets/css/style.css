@@ -227,6 +227,19 @@ input[type=submit] {
     
   }
   .main-section{
-    max-width: 420px;
+    max-width: 480px;
   }
+  
+  .work h3{
+    width: 100%;
+  }
+
+  .work{
+    width: 188px;
+  }
+  .auth-image{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
 }

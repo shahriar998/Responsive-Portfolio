@@ -230,16 +230,35 @@ input[type=submit] {
     max-width: 480px;
   }
   
-  .work h3{
-    width: 100%;
+  .work {
+    width: 180px;
   }
-
-  .work{
-    width: 188px;
-  }
+  
   .auth-image{
     width: 100%;
     margin-bottom: 20px;
   }
 
+}
+@media screen and (max-width: 768px){
+  .main-section, .sidebar{
+    max-width: 100%
+  }
+
+  #main-container{
+    overflow: auto;
+  }
+  .work{
+    width: 47%;
+    margin-bottom: 10px;
+  }
+  .work:nth-child(even){
+    margin-right: 0;
+  }
+  .work:nth-child(odd){
+    float:right;
+  }
+  .auth-image{
+    width: 50%;
+  }
 }
